@@ -24,7 +24,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
-android {
+android {    
+    namespace "me.sodipto.phone_state_background"
+
     compileSdkVersion 30
 
     compileOptions {
